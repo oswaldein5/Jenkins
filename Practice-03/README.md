@@ -1,4 +1,4 @@
-# Practice-03 - Jenkins CI with test unit
+# Practice-03 - Jenkins CI with JUnit test and Slack Notifications
 
 ## [billing+test]:Source code as example
 
