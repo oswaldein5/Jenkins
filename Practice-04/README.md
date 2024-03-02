@@ -12,8 +12,6 @@
 - Go to `http://localhost:9000`: Sonarqube Portal
 - Go to Administration/Security/Users
 - Add Tokens to user Administrator for Jenkins
-squ_ca6f040012dc2dc186e710045634208b1381fc0d
-
 
 ## Go to Jenkins
 - Install plugin SonarQube ScannerVersion
