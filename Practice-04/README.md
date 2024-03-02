@@ -7,11 +7,6 @@
 - `docker network connect sonarq-jenkins jenkins`: 
 - `docker container inspect sonarqube`: 
 - `docker container inspect jenkins`: 
-- ``: 
-- ``: 
-- ``: 
-- ``: 
-- ``: 
 
 ## Go to Sonarqube
 - Go to `http://localhost:9000`: Sonarqube Portal
