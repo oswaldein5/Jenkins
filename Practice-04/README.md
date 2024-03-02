@@ -29,3 +29,7 @@
 	- sonar.sources=Practice-04/billing/src/main/java
 	- sonar.java.binaries=Practice-04/billing/target/classes
 - In `Additional arguments` enter `-X`
+- Apply and Save
+
+## Go to Jenkins
+- Check pipeline `pipeline_CI_test`
