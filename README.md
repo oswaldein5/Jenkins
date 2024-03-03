@@ -2,7 +2,9 @@
 - [x] Install Jenkins using Docker image & Dockerfile
 - [x] Create a Pipeline [Freestyle Project]
 - [x] Run and debug Pipeline
-- [x] Create, Run and Debug a Pipeline based in Webhooks
+- [x] Create, Run and Debug a Pipeline:
+	- Webhooks
+	- Ngrox
 - [x] Create a pipeline with:
 	- Continuous Integration
 	- JUnit test

@@ -19,7 +19,7 @@
 - Go to `Source Code Management` and select `Git`
 - In `Repositories/Repository URL` enter `https://[token|secrettext]@github.com/user/repo.git`
 - Go to `Branch Specifier (blank for 'any')`: enter `origin/feature**` 
-	- ** Check which branch that triggers the pipeline
+	- *** Check which branch that triggers the pipeline
 - Go to `Additional Behaviours` in `Add` select the option `Custom user name/e-mail address`
 - Enter user.name `jenkins` and enter user.email `email.example.com`
 - Go to `Build Steps` and choose the option `Invoke top-level Maven targets`
@@ -50,9 +50,5 @@
 ## Go to Jenkins
 - Check pipeline `pipeline_CI_test`
 - The pipeline should have done the merge
-
-##
-
-##
 
 ---

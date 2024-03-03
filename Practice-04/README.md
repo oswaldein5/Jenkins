@@ -22,7 +22,7 @@
 - Go to `Manage jenkins > configureTools > SonarQube Scanner installations`
 - Enter Name: `sonarscanner`
 - Apply and Save
-- Go to `pipeline_CI_test`
+- [Re]Configure Pipeline the same item `pipeline_CI_test`
 - Go to `Build Steps` and choose the option `Execute SonarQube Scanner`
 - In `Analysis properties` enter the following cmds:
 	- sonar.projectKey=sonarqube
