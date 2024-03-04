@@ -38,6 +38,8 @@
 - Check the option `GitHub project` and enter url repo github in `Project url` 
 - In this case `https://github.com/oswaldein5/Jenkins/`
 - In `Pipeline` choose `Pipeline script from SCM`
+- In `Repositories/Repository URL` enter `https://[token|secrettext]@github.com/oswaldein5/Jenkins/`
+- In `Branch Specifier (blank for 'any')` enter `main`
 - 
 
 
