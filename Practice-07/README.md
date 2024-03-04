@@ -32,7 +32,3 @@
 	- `kubectl --namespace jenkins port-forward svc/jenkins 8080:8080`: Access to jenkins:8080
 - Go to http://localhost:8080/
 
-
-
-
-## 
