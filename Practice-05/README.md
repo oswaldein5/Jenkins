@@ -14,5 +14,6 @@
 - In `Advanced` go to `Build Context` enter `Practice-05/billing/`: Repo Directory Context 
 - In `Advanced` go to `Additional Build Arguments` enter `--build-arg  JAR_FILE=target/*.jar`
 - Apply and Save
-
+----- *** All steps for App-Front
+ 
 
