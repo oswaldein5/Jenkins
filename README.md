@@ -4,9 +4,10 @@
 - [x] Run and debug Pipeline
 - [x] Create, Run and Debug a Pipeline:
 	- Webhooks / Ngrox
-- [x] Create a pipeline with:
+- [x] Create a pipeline:
 	- Continuous Integration
 	- JUnit test
 	- Slack Notifications
 	- Sonarqube
+- [X] Test, verify code, build and deploy to Docker Hub
 - [x] Deploy Jenkins on Kubernetes cluster using Helm:Chart
