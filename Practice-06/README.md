@@ -9,9 +9,6 @@
 ## Install Kubernetes plugin
 `https://plugins.jenkins.io/kubernetes/`
 
-## Create repo in Github
-- Sync with Git
-
 ## Go to local terminal
 - `kubectl apply -f jenkins-account.yaml`: Create ServiceAccount w secret for jenkins
 - `kubectl config view`
@@ -40,7 +37,10 @@
 - In `Pipeline` choose `Pipeline script from SCM`
 - In `Repositories/Repository URL` enter `https://[token|secrettext]@github.com/oswaldein5/Jenkins/`
 - In `Branch Specifier (blank for 'any')` enter `main`
-- 
+- In `Script Path` enter the path `Practice-06/Jenkinsfile`
+- Execute `Deploy_K8s`
+- Finally add this pipeline `Deploy_K8s` as `Build other projects` to the end of the job `pipeline_CI_test`
+- Execute `pipeline_CI_test`
 
 
 
