@@ -9,5 +9,5 @@
 	- JUnit test
 	- Slack Notifications
 	- Sonarqube
-- [X] Test, verify code, build and deploy to Docker Hub
+- [X] Test, verify code, build and deploy App:Image to Docker Hub
 - [x] Deploy Jenkins on Kubernetes cluster using Helm:Chart
