@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-    app: billing-app-back-jenkis
+      app: billing-app-back-jenkis
   replicas: 2
   template:
     metadata:
