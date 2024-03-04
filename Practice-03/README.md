@@ -15,9 +15,9 @@
 - `Apply` and `Save`
 - Create new view `pipeline_CI_test` as `freestyle project` 
 - Check the option `GitHub project` and enter url repo github in `Project url` 
-- In this case: `https://github.com/user/repo.git`
+- In this case `https://github.com/oswaldein5/Jenkins/`
 - Go to `Source Code Management` and select `Git`
-- In `Repositories/Repository URL` enter `https://[token|secrettext]@github.com/user/repo.git`
+- In `Repositories/Repository URL` enter `https://[token|secrettext]@github.com/oswaldein5/Jenkins/`
 - Go to `Branch Specifier (blank for 'any')`: enter `origin/feature**` 
 	- *** Check which branch that triggers the pipeline
 - Go to `Additional Behaviours` in `Add` select the option `Custom user name/e-mail address`

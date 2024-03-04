@@ -8,7 +8,7 @@
 - [Re]Configure Pipeline the same item `pipeline_CI_test`
 ----- *** All steps for App-Back
 - Add `Add build step` select option `Docker Build and Publish` 
-- Repository Name `repo/billingapp-back`
+- Repository Name `oswaldeins/billingapp-back`
 - Tag `0.0.1`
 - Docker Host URI `tcp://host.docker.internal:2375` In this case for wsl2
 - `curl http://localhost:2375/images/json`: Testing
