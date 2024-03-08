@@ -1,0 +1,66 @@
+pipeline {
+    agent any
+    
+    parameters {
+        string (name:"LASTNAME", description:"Lastname")
+        text (name:"BIO", description:"Bio")
+        booleanParam (name:"BOOLEAN", description:"Boolean Param")
+        choice (name:"CITIES", choices:["Gye","Uio","Cue"], description:"Choose City")
+        password (name:"PASSWORD", description:"Password")
+    }
+    
+    environment {
+        INSTAGRAM_OS="@oswaldein5"
+    }
+    
+    stages {
+        stage ("Hello1"){
+            steps {
+                echo "Hello from stage Hello1"
+            }
+        }
+        stage ("Hello2"){
+            steps {
+                echo "Hello from stage Hello2, step 1"
+                echo "Hello from stage Hello2, step 2"
+            }
+        
+        }
+        stage ("Print Env Vars"){
+            steps {
+                echo "${env.INSTAGRAM_OS}"
+                echo "${INSTAGRAM_OS}"
+                echo "$INSTAGRAM_OS"
+                
+                sh "echo 'Hello World'"
+            }
+        }
+        stage ("Print Env Vars from Jenkins:Systems"){
+            steps {
+                echo "${env.INSTAGRAM_OSEC}"
+                echo "${INSTAGRAM_OSEC}"
+                echo "$INSTAGRAM_OSEC"
+                echo "========================================================"
+                sh "echo ${env.INSTAGRAM_OSEC}"
+                sh "echo ${INSTAGRAM_OSEC}"
+                sh "echo $INSTAGRAM_OSEC"
+            }
+        }
+        stage ("Change value") {
+            steps {
+                script {
+                    $INSTAGRAM_OS="@oswaldeins"
+                }
+                echo $INSTAGRAM_OS
+            }
+            
+        }
+        stage ("Print params") {
+            steps {
+                echo "${params.LASTNAME}"
+                echo "$params.PASSWORD"
+            }
+            
+        }
+    }
+}

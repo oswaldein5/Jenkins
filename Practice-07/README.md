@@ -7,12 +7,11 @@
 - `kubectl create namespace jenkins`
 - `kubectl get namespaces`
 - `kubens jenkins`: Move to namespace:jenkins
-- ``
 
 ## Install Helm [In this case for Ubuntu]
 - `sudo snap install helm --classic`
 
-## Install Jenkins from Helm
+## Install Jenkins via Helm
 - `helm repo add jenkins https://charts.jenkins.io`
 - `helm repo update`
 - `helm repo list`

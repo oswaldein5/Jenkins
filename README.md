@@ -10,5 +10,5 @@
 	- Slack Notifications
 	- Sonarqube
 - [x] Test, verify code, build and deploy App:Image to Docker Hub
-- [x] 
+- [x] Deploy on Kubernetes from jenkins using a pipeline
 - [x] Deploy Jenkins on Kubernetes cluster using Helm:Chart
