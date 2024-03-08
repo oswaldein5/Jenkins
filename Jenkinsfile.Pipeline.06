@@ -35,17 +35,6 @@ pipeline {
                 sh "echo 'Hello World'"
             }
         }
-        stage ("Print Env Vars from Jenkins:Systems"){
-            steps {
-                echo "${env.INSTAGRAM_OSEC}"
-                echo "${INSTAGRAM_OSEC}"
-                echo "$INSTAGRAM_OSEC"
-                echo "========================================================"
-                sh "echo ${env.INSTAGRAM_OSEC}"
-                sh "echo ${INSTAGRAM_OSEC}"
-                sh "echo $INSTAGRAM_OSEC"
-            }
-        }
         stage ("Change value") {
             steps {
                 script {
